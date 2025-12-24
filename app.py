@@ -7,7 +7,7 @@ from GoogleNews import GoogleNews # เรียกใช้ Google News
 app = Flask(__name__)
 
 # --- ใส่ Token ของคุณตรงนี้ ---
-CHANNEL_ACCESS_TOKEN = 'VPTmQL/xntTwRHJrEo1tZHM3X654aT0I4WXJ0VTUhANV7OgubY0URND2DHlKAB8mawXUIhGNNilt9I2d4tECLQ+VEQ8fY0YemnTcbznRidFMcOEn/M70N0+xBpRm+ZvNmbXdUJo5QnHzkYcz/1eDPQdB04t89/1O/w1cDnyilFU=
+CHANNEL_ACCESS_TOKEN = 'VPTmQL/xntTwRHJrEo1tZHM3X654aT0I4WXJ0VTUhANV7OgubY0URND2DHlKAB8mawXUIhGNNilt9I2d4tECLQ+VEQ8fY0YemnTcbznRidFMcOEn/M70N0+xBpRm+ZvNmbXdUJo5QnHzkYcz/1eDPQdB04t89/1O/w1cDnyilFU='
 
 def get_stock_news(symbol):
     try:
@@ -74,3 +74,4 @@ def reply_message(reply_token, text):
 
 if __name__ == "__main__":
     app.run()
+
